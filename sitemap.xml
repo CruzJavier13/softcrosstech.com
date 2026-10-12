@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://softcrosstech.com/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Services -->
+  <url>
+    <loc>https://softcrosstech.com/pages/services.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Portfolio -->
+  <url>
+    <loc>https://softcrosstech.com/pages/portfolio.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- About Us -->
+  <url>
+    <loc>https://softcrosstech.com/pages/about.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Contact -->
+  <url>
+    <loc>https://softcrosstech.com/pages/contact.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+</urlset>

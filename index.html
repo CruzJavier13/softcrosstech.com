@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SOFTCROSS TECH - Soluciones de Automatización Industrial, Integración de Hardware y Desarrollo de Software a Medida">
+    <title>SOFTCROSS TECH | Automation, Software Development & AI</title>
+
+    <!-- Favicon & CSS -->
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- 1. Header / Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="brand-name">
+          <span class="highlight">
+            <img src="assets/icons/SoftCross Tech Circuit Logo.png" alt="SOFTCROSS TECH Logo">
+          </span>
+        </span>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li class="nav-li"><a class="nav-link" href="index.html" class="active" data-i18n="nav.home">Home</a></li>
+          <li class="nav-li"><a class="nav-link" href="pages/servicios.html" data-i18n="nav.services">Services</a></li>
+          <li class="nav-li"><a class="nav-link" href="pages/portafolio.html" data-i18n="nav.portfolio">Portfolio</a></li>
+          <li class="nav-li"><a class="nav-link" href="pages/acerca.html" data-i18n="nav.about">About me</a></li>
+          <li class="nav-li"><a class="nav-link" href="pages/contacto.html" class="btn-primary" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="language-selector">
+      <button id="lang-toggle" aria-label="Cambiar idioma">
+        🌐 <span id="current-lang" data-i18n="lang.current">ES</span>
+      </button>
+    </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO SECTION (Value Proposition) -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 data-i18n="hero.title">Industrial Automation, AI & Software Development</h1>
+          <p data-i18n="hero.subtitle">We optimize industrial processes and integrate hardware, weighing, and web development to drive your business forward.</p>
+          <div class="hero-buttons">
+            <a href="pages/servicios.html" class="btn-primary" data-i18n="hero.btnServices">See Services</a>
+            <a href="pages/portafolio.html" class="btn-secondary" data-i18n="hero.btnPortfolio">Explore Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Featured services (commercial approach) -->
+    <section class="services-preview">
+      <div class="container">
+        <h2 data-i18n="services.title">Featured Services</h2>
+        <div class="services-grid">
+          
+          <article class="service-card">
+            <div class="icon">⚙️</div>
+            <h3 data-i18n="services.industrial">Automation Industrial</h3>
+            <p data-i18n="services.industrial.description">Integración de indicadores de pesaje, celdas de carga, sensores y comunicación mediante protocolos industriales (Modbus, RS485).</p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">💻</div>
+            <h3 data-i18n="services.software">Software Development</h3>
+            <p data-i18n="services.software.description">Control systems, real-time dashboards, scalable web applications, and custom APIs for each process.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">🔌</div>
+            <h3 data-i18n="services.embedded">Embedded Systems / IoT</h3>
+            <p data-i18n="services.embedded.description">Design and programming of microcontrollers for data acquisition and economical customized automation.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Project Portfolio (Industrials + Personals) -->
+    <section class="portfolio-preview">
+      <div class="container">
+        <h2 data-i18n="portfolio.title">Projects & Developments</h2>
+        <p data-i18n="portfolio.description">A showcase of our industrial solutions and personal research.</p>
+        
+        <div class="portfolio-grid">
+          
+          <!-- Project 1: Industrial -->
+          <article class="project-card">
+            <img src="assets/img/portfolio/proyecto-pesaje.jpg" alt="Integración de Indicador de Pesaje">
+            <div class="project-info">
+              <span class="badge industrial">Industrial</span>
+              <h3 data-i18n="portfolio.project1.title">Weighting System and PLC Integration</h3>
+              <p data-i18n="portfolio.project1.description">Monitoring and integration of industrial indicators with real-time data capture.</p>
+              <a href="pages/portafolio.html#pesaje" class="link-detail">View Details →</a>
+            </div>
+          </article>
+
+          <!-- Project 2: Software Development / Web -->
+          <article class="project-card">
+            <img src="assets/img/portfolio/dashboard-web.jpg" alt="Web Control Dashboard">
+            <div class="project-info">
+              <span class="badge software">Software</span>
+              <h3 data-i18n="portfolio.project2.title">Web Control Dashboard</h3>
+              <p data-i18n="portfolio.project2.description">Web platform for monitoring operational states of sensors and automated reporting.</p>
+              <a href="pages/portafolio.html#dashboard" class="link-detail">View Details →</a>
+            </div>
+          </article>
+
+          <!-- Project 3: Personal / R&D -->
+          <article class="project-card">
+            <img src="assets/img/portfolio/micro-controller.jpg" alt="Prototipo de Microcontrolador">
+            <div class="project-info">
+              <span class="badge personal">Personal Project</span>
+              <h3 data-i18n="portfolio.project3.title">ESP32/RS485 Data Acquisition Module</h3>
+              <p data-i18n="portfolio.project3.description">Low-cost prototype design for reading load cells via microcontroller.</p>
+              <a href="pages/portafolio.html#esp32-modbus" class="link-detail">View Details →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. TECHNICAL PROFILE / ABOUT ME (Trust & Personal Brand) -->
+    <section class="about-preview">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <h2 data-i18n="about.title">Behind SOFTCROSS TECH</h2>
+            <p data-i18n="about.description">We combine the rigor of automation engineering with the best practices of modern software development.</p>
+            <ul class="skills-list">
+              <li><strong data-i18n="about.skills.languages">Languages & Frameworks:</strong> JavaScript (ES2026+), Node.js, Python, C/C++ (Embedded)</li>
+              <li><strong data-i18n="about.skills.automation">Automation:</strong> Modbus Protocols, RS232/RS485 Integration, Load Cells and Sensors</li>
+              <li><strong data-i18n="about.skills.webdev">Web & Cloud Development:</strong> HTML5/CSS3, RESTful APIs, Vercel/Cloudflare, Git</li>
+            </ul>
+            <a href="pages/acerca.html" class="btn-secondary" data-i18n="about.cta">Learn More About My Profile</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CALL TO ACTION (CTA) -->
+    <section class="cta-section">
+      <div class="container">
+        <h2 data-i18n="cta.title">Do you have an automation or software project in mind?</h2>
+        <p data-i18n="cta.description">Let's work together to take your idea or process to the next level.</p>
+        <a href="pages/contacto.html" class="btn-primary" data-i18n="cta.action">Solicitar Cotización / Contactar</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7. FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 SOFTCROSS TECH. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://linkedin.com" target="_blank" rel="noopener" data-i18n="footer.linkedin">LinkedIn</a>
+          <a href="https://github.com" target="_blank" rel="noopener" data-i18n="footer.github">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

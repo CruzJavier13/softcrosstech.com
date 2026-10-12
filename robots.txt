@@ -1,0 +1,14 @@
+# Permite la exploración a todos los motores de búsqueda
+User-agent: *
+
+# Bloquea el acceso a carpetas internas o privadas
+Disallow: /components/
+Disallow: /assets/pdf/
+Disallow: /admin/
+
+# Permite explícitamente el acceso a las páginas públicas y recursos visuales
+Allow: /
+Allow: /assets/img/
+
+# Enlace al mapa del sitio web (Sitemap XML)
+Sitemap: https://softcrosstech.com/sitemap.xml
